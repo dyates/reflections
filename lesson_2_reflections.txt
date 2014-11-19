@@ -1,0 +1,5 @@
+What happens when you initialize a repository? Why do you need to do it?
+When you run 'git init' it creates the .git directory and
+creates/intializes the repository.  If you don't do this then you cannot
+do any commits which means you will not be taking advantage of the
+ benefits of version control.

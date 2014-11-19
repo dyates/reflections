@@ -1,0 +1,51 @@
+When I used the fc command (diff for linux),  it gave me a bunch of html
+ code.  I think I was supposed to get some javascript.  Maybe I was 
+ missing somwthing or I downloaded the file wrong.  Need to research
+  this further.
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+     It could decrease the amount of time it takes to find a bug because
+      you would be able to see what you changed.  Also, it could 
+      possibly help with code refactoring.  It could also help with
+      regression testing.  If a new version of some software fails
+      tests the used to pass, you can go back to the previous version
+      of the software to see what might have gone wrong much quicker
+      than if you did not have version control.
+
+What do you think are the pros and cons of manually choosing when to
+ create a commit, like you do in Git, vs having versions automatically
+  saved, like Google docs does?
+    The obvious con of manual saving is what happens if you forget to
+    save?  Automatic saving will guarantee that all changes will be 
+    saved.
+    A pro is that you will not have too many versions of a file.  That
+    way it will be easier to go back and inspect a previous version of 
+    a file.  In other words, you have more control over how many 
+    versions of a file you have.
+
+  Why do you think some version control systems, like Git, allow
+  saving multiple files in one commit, while others, like Google
+  Docs, treat each file separately?
+    Since Git is a version control for code, some files may depend on
+    others. It makes sense to be able to save all of the files that 
+    changed because they may depend on each other.  Also, in order 
+    to make one change you made need to change multiple files (function
+    calls, interface methods, etc.)
+
+How can you use the commands git log and git diff to view the history
+of files?
+The 'git log' command lists all of the commits that were made for the
+current repository.  The 'git diff' command takes commit ID's as arguments and shows the difference between the two commits.
+
+How might using version control make you more confident to make changes
+that could break something?
+With the 'git checkout' command you can go back to previous
+versions of the code and find out exactly when you broke the code.
+After that, with the 'git diff' command you can find out exactly where
+in the mistake is in the code.
+
+Now that you have your workspace set up, what do you want to try using
+Git for?
+I have never used version control before.  Also git is very popular and
+I would like to learn how to use GitHub.
+
