@@ -6,4 +6,6 @@ do any commits which means you will not be taking advantage of the
 
  How is the staging area different from the working directory and the
  repository? What value do you think it offers?
- The staging area is where you add files (from the working directory) that will be commited when you use the 'git commit' command.
+ The staging area is where you add files (from the working directory) that will be commited when you use the 'git commit' command.  The 
+ value that this offers is that it allows you to specify what you 
+ want and what you do not want in your commits.
