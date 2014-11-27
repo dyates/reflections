@@ -3,3 +3,7 @@ When you run 'git init' it creates the .git directory and
 creates/intializes the repository.  If you don't do this then you cannot
 do any commits which means you will not be taking advantage of the
  benefits of version control.
+
+ How is the staging area different from the working directory and the
+ repository? What value do you think it offers?
+ The staging area is where you add files (from the working directory) that will be commited when you use the 'git commit' command.
