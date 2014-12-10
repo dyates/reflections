@@ -9,3 +9,7 @@ do any commits which means you will not be taking advantage of the
  The staging area is where you add files (from the working directory) that will be commited when you use the 'git commit' command.  The 
  value that this offers is that it allows you to specify what you 
  want and what you do not want in your commits.
+
+ How can you use the staging area to make sure you have one commit per
+ logical change?
+ Commits can only be made from the staging area.  So, even though you can be working on multiple files, you can add one file or more that represents a logical change to the staging area and commit the files to the repository.  The staging area allows you to control what you commit to your repository.
