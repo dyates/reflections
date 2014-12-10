@@ -12,4 +12,17 @@ do any commits which means you will not be taking advantage of the
 
  How can you use the staging area to make sure you have one commit per
  logical change?
- Commits can only be made from the staging area.  So, even though you can be working on multiple files, you can add one file or more that represents a logical change to the staging area and commit the files to the repository.  The staging area allows you to control what you commit to your repository.
+ Commits can only be made from the staging area.  So, even though you
+ can be working on multiple files, you can add one file or more that
+ represents a logical change to the staging area and commit the files
+ to the repository.  The staging area allows you to control what you
+ commit to your repository and how big your commit is.
+
+ What are some situations when branches would be helpful in keepin
+ your history organized? How would branches help?
+ Branches could help seperate different versions or different releases 
+ of your software.  Whenever you finish a release or begin work on a
+ new version of your software, it can be done on a new branch.  You can
+ also use branches to experiment with the software. This allows you to
+ organize what version of the software you are working on without 
+ having to worry about changing other versions.
