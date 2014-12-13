@@ -26,3 +26,10 @@ do any commits which means you will not be taking advantage of the
  also use branches to experiment with the software. This allows you to
  organize what version of the software you are working on without 
  having to worry about changing other versions.
+
+ How do the diagrams help you visualize the branch structure?
+ A diagram of a repository helps you realize that the commits you make
+ create a graph with no cycles.  Each node (commit) is only reachable
+ from a branch (root node).  This is the case because you can always
+ go back to a branch using the 'git checkout' command.  If you commit to a DETACHED HEAD without making it a branch then it will be
+ unreachable in the repository graph.
