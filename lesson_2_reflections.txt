@@ -33,3 +33,11 @@ do any commits which means you will not be taking advantage of the
  from a branch (root node).  This is the case because you can always
  go back to a branch using the 'git checkout' command.  If you commit to a DETACHED HEAD without making it a branch then it will be
  unreachable in the repository graph.
+
+ What is the result of merging two branches together? Why do we
+ represent it in the diagram the way we do?
+ Merging two branches combines all of the changes from both branches.  
+ It was represented in a diagram to show that all of the commits from
+ both branches will still be reachable from the new branch.  Remember
+ to delete the second branch (git new_master_branch branch_to be
+ deleted).  You are only deleting the label, not the commits.
