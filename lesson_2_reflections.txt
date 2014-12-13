@@ -41,3 +41,11 @@ do any commits which means you will not be taking advantage of the
  both branches will still be reachable from the new branch.  Remember
  to delete the second branch (git new_master_branch branch_to be
  deleted).  You are only deleting the label, not the commits.
+
+ What are the pros and cons of Git’s automatic merging vs. always doing
+ merges manually?
+ Manual merging is great for when the heads of the two branches that you
+ want to commit have changes in the same area of the code but the
+ changes themselves are different.  This allows you to speak with the
+ developer and decide which changes should be made.  The con to this 
+ is that this could possibly take a long time depending on how much code was changed or how big the section of code is.
