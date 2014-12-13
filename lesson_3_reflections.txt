@@ -1,1 +1,3 @@
 When would you want to create a remote repository rather than keep all your work local?
+When files/projects start to get large then it may not be a good idea to keep everything local. 
+Having a remote repository allows you to access your work anywhere.
