@@ -15,3 +15,8 @@ fork is a clone of someone else's remote repository that goes directly to your r
 What is the benefit of having a copy of the last known state of the
 remote stored locally?
 IF the repository is public then it may have been changed by someone other than you.  This way if you make changes on your local repository and you want to compare or merge then you can. 
+
+How would you collaborate without using Git or GitHub? What would be
+easier, and what would be harder?
+If I did not have GitHub than I would probably have to correspond by email or some other shared repository like Google Drive.  THis would 
+make it ALOT harder and cumbersome to keep up with all of the changes made.  
