@@ -20,3 +20,10 @@ How would you collaborate without using Git or GitHub? What would be
 easier, and what would be harder?
 If I did not have GitHub than I would probably have to correspond by email or some other shared repository like Google Drive.  THis would 
 make it ALOT harder and cumbersome to keep up with all of the changes made.  
+
+When would you want to make changes in a separate branch rather than
+directly in master? What benefits does each approach have?
+You would make cjanges in a seperate branch when you are not sure if
+this is going to go into the final code.  Also when a change is more in
+line with another branch.  However if you mmake a change in the master 
+branch then you are guranteeing that everyone will see it.
